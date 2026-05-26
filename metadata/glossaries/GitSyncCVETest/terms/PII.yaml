@@ -1,6 +1,6 @@
 name: PII
 displayName: Personally Identifiable Information
-description: eddsa-test glossaryTerm sync trigger at 21:13:59
+description: 1.13 retest term 220355
 fullyQualifiedName: GitSyncCVETest.PII
 synonyms:
   - PersonalData
@@ -14,30 +14,27 @@ glossary:
     \ removal) end-to-end via the Git Sink workflow."
   displayName: GitSync CVE Test
   deleted: false
-children: []
 relatedTerms: []
 references: []
+conceptMappings: []
 reviewers: []
 owners: []
-usageCount: 0
 tags: []
 incrementalChangeDescription:
   fieldsAdded: []
   fieldsUpdated:
     - name: description
-      oldValue: "Any data that can be used to identify an individual: names, emails,\
-        \ SSNs, phone numbers, addresses."
-      newValue: eddsa-test glossaryTerm sync trigger at 21:13:59
+      oldValue: eddsa-test glossaryTerm sync trigger at 21:13:59
+      newValue: 1.13 retest term 220355
   fieldsDeleted: []
-  previousVersion: 0.1
+  previousVersion: 0.2
   changeSummary:
     description:
       changeSource: Manual
       changedBy: admin
-      changedAt: 1779810239433
+      changedAt: 1779813235677
 entityStatus: Approved
 provider: user
 mutuallyExclusive: false
 domains: []
 dataProducts: []
-childrenCount: 0
