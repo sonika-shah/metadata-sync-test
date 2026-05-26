@@ -1,13 +1,13 @@
 name: mysql_sample
 fullyQualifiedName: mysql_sample
 serviceType: Mysql
-description: Trigger eddsa-removal manual sync test at 2026-05-26T21:03:47+05:30
+description: 1.13 retest svc 220355
 connection:
   config:
     type: Mysql
     scheme: mysql+pymysql
     authType:
-      password: fernet:gAAAAABqFb1bQm8z_YGWLXDaKYbJDqtZFCainst7p4IqPNHvKPr9LiI3DD1Yfi6zvjlrzA4J00-bnYLjHft9ym0AOCdq1wmKENvsAjpfIvZ0Lhl7XvwawpI=
+      password: fernet:gAAAAABqFctz3EeRRZriMqonxXipxpYegFd25OeDl0PTi4USw17LGf0KS0KBR8dW5SwzoECs3_7mJEf-ZWTMT2yB_r-qFEMjF5y6hGZd7UyPMWsGNxY2lL8=
     hostPort: localhost:3306
     username: openmetadata_user
     useSlowLogs: false
@@ -19,20 +19,21 @@ connection:
     supportsUsageExtraction: true
     supportsLineageExtraction: true
     supportsMetadataExtraction: true
-pipelines: []
 tags: []
 owners: []
 incrementalChangeDescription:
-  fieldsAdded:
+  fieldsAdded: []
+  fieldsUpdated:
     - name: description
-      newValue: Trigger eddsa-removal manual sync test at 2026-05-26T21:03:47+05:30
-  fieldsUpdated: []
+      oldValue: Trigger eddsa-removal manual sync test at 2026-05-26T21:03:47+05:30
+      newValue: 1.13 retest svc 220355
   fieldsDeleted: []
-  previousVersion: 0.1
+  previousVersion: 0.2
   changeSummary:
     description:
       changeSource: Manual
       changedBy: admin
-      changedAt: 1779809627156
+      changedAt: 1779813235364
 entityStatus: Unprocessed
 dataProducts: []
+domains: []
