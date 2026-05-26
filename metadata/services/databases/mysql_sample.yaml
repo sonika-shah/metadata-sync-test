@@ -1,0 +1,38 @@
+name: mysql_sample
+fullyQualifiedName: mysql_sample
+serviceType: Mysql
+description: Trigger eddsa-removal manual sync test at 2026-05-26T21:03:47+05:30
+connection:
+  config:
+    type: Mysql
+    scheme: mysql+pymysql
+    authType:
+      password: fernet:gAAAAABqFb1bQm8z_YGWLXDaKYbJDqtZFCainst7p4IqPNHvKPr9LiI3DD1Yfi6zvjlrzA4J00-bnYLjHft9ym0AOCdq1wmKENvsAjpfIvZ0Lhl7XvwawpI=
+    hostPort: localhost:3306
+    username: openmetadata_user
+    useSlowLogs: false
+    databaseSchema: posts_db
+    supportsDataDiff: true
+    supportsProfiler: true
+    supportsQueryComment: true
+    supportsDBTExtraction: true
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+pipelines: []
+tags: []
+owners: []
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: description
+      newValue: Trigger eddsa-removal manual sync test at 2026-05-26T21:03:47+05:30
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary:
+    description:
+      changeSource: Manual
+      changedBy: admin
+      changedAt: 1779809627156
+entityStatus: Unprocessed
+dataProducts: []
