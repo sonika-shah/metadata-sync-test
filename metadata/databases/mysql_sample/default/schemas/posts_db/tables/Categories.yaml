@@ -1,6 +1,6 @@
 name: Categories
 fullyQualifiedName: mysql_sample.default.posts_db.Categories
-description: eddsa-test table sync trigger at 21:13:58
+description: 1.13 retest table 220355
 tableType: Regular
 columns:
   - name: category_id
@@ -12,7 +12,6 @@ columns:
     constraint: PRIMARY_KEY
     ordinalPosition: 1
     children: []
-    customMetrics: []
   - name: name2507782527390313519868558824
     dataType: VARCHAR
     dataLength: 100
@@ -22,7 +21,6 @@ columns:
     constraint: NOT_NULL
     ordinalPosition: 2
     children: []
-    customMetrics: []
 owners: []
 databaseSchema:
   id: 44ef73eb-9830-4c03-ad66-a65a7d130649
@@ -43,29 +41,24 @@ service:
   type: databaseService
   name: mysql_sample
   fullyQualifiedName: mysql_sample
-  description: Trigger eddsa-removal manual sync test at 2026-05-26T21:03:47+05:30
+  description: 1.13 retest svc 220355
   displayName: mysql_sample
   deleted: false
 serviceType: Mysql
 tags: []
-joins:
-  startDate: 2026-04-26
-  dayCount: 30
-  columnJoins: []
-  directTableJoins: []
-customMetrics: []
 incrementalChangeDescription:
-  fieldsAdded:
+  fieldsAdded: []
+  fieldsUpdated:
     - name: description
-      newValue: eddsa-test table sync trigger at 21:13:58
-  fieldsUpdated: []
+      oldValue: eddsa-test table sync trigger at 21:13:58
+      newValue: 1.13 retest table 220355
   fieldsDeleted: []
-  previousVersion: 0.1
+  previousVersion: 0.2
   changeSummary:
     description:
       changeSource: Manual
       changedBy: admin
-      changedAt: 1779810239213
+      changedAt: 1779813235530
 sourceUrl: https://localhost:3306/posts_db
 domains:
   - id: e0808195-4d72-40d7-b434-ac9dc46a6177
