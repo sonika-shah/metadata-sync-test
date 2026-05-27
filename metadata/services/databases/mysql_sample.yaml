@@ -1,13 +1,13 @@
 name: mysql_sample
 fullyQualifiedName: mysql_sample
 serviceType: Mysql
-description: FIX-test svc 111557
+description: FINAL svc 113148
 connection:
   config:
     type: Mysql
     scheme: mysql+pymysql
     authType:
-      password: fernet:gAAAAABqFoUVq1e02xFmFch0Ke-ZvSJrynM0GGrBv_FWR4nj8kxQH9R_NCW9qS_EZpjcgbCUDKRguXz0p_Ls1CNBQ2VObZ4sZw==
+      password: fernet:gAAAAABqFojMIlspuSAUV1RzqKVm4MxmOmO5YWPlTgeEpxUzA2cCfGPUXqaoXkwNd7Umub1GwZc2lGHjeVdpY-ioPhyCCMsmwQ==
     hostPort: localhost:3306
     username: u
     useSlowLogs: false
@@ -25,15 +25,15 @@ incrementalChangeDescription:
   fieldsAdded: []
   fieldsUpdated:
     - name: description
-      oldValue: no-eddsa retest svc 104217
-      newValue: FIX-test svc 111557
+      oldValue: FIX-test svc 111557
+      newValue: FINAL svc 113148
   fieldsDeleted: []
-  previousVersion: 0.2
+  previousVersion: 0.3
   changeSummary:
     description:
       changeSource: Manual
       changedBy: admin
-      changedAt: 1779860757508
+      changedAt: 1779861708720
 entityStatus: Unprocessed
 dataProducts: []
 domains: []
