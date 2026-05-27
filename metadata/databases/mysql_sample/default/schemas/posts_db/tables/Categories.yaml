@@ -1,6 +1,6 @@
 name: Categories
 fullyQualifiedName: mysql_sample.default.posts_db.Categories
-description: CLEAN table 113811
+description: table edge 144622
 columns:
   - name: id
     dataType: BIGINT
@@ -35,7 +35,7 @@ service:
   type: databaseService
   name: mysql_sample
   fullyQualifiedName: mysql_sample
-  description: CLEAN svc 113811
+  description: and-pos 144622
   displayName: mysql_sample
   deleted: false
 serviceType: Mysql
@@ -44,15 +44,15 @@ incrementalChangeDescription:
   fieldsAdded: []
   fieldsUpdated:
     - name: description
-      oldValue: FINAL table 113148
-      newValue: CLEAN table 113811
+      oldValue: CLEAN table 113811
+      newValue: table edge 144622
   fieldsDeleted: []
   previousVersion: 0.4
   changeSummary:
     description:
       changeSource: Manual
       changedBy: admin
-      changedAt: 1779862091927
+      changedAt: 1779873382891
 domains: []
 dataProducts: []
 processedLineage: false
