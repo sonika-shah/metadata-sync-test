@@ -1,5 +1,5 @@
 name: PII
-description: FIX-test term 111557
+description: FINAL term 113148
 fullyQualifiedName: GitSyncCVETest.PII
 synonyms: []
 glossary:
@@ -20,15 +20,15 @@ incrementalChangeDescription:
   fieldsAdded: []
   fieldsUpdated:
     - name: description
-      oldValue: no-eddsa retest term 104217
-      newValue: FIX-test term 111557
+      oldValue: FIX-test term 111557
+      newValue: FINAL term 113148
   fieldsDeleted: []
-  previousVersion: 0.2
+  previousVersion: 0.3
   changeSummary:
     description:
       changeSource: Manual
       changedBy: admin
-      changedAt: 1779860757889
+      changedAt: 1779861709044
 entityStatus: Approved
 provider: user
 mutuallyExclusive: false
