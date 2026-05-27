@@ -1,18 +1,14 @@
 name: PII
-displayName: Personally Identifiable Information
-description: 1.13 retest term 220355
+description: FIX-test term 111557
 fullyQualifiedName: GitSyncCVETest.PII
-synonyms:
-  - PersonalData
-  - SensitiveData
+synonyms: []
 glossary:
-  id: 186247ad-606e-450d-9134-fe273e7fafd9
+  id: 3535f543-7485-475c-8ead-2e40875cf1a1
   type: glossary
   name: GitSyncCVETest
   fullyQualifiedName: GitSyncCVETest
-  description: "Glossary used to manually validate PR #4273 (CVE-2020-36843 / eddsa\
-    \ removal) end-to-end via the Git Sink workflow."
-  displayName: GitSync CVE Test
+  description: main retest glossary
+  displayName: GitSyncCVETest
   deleted: false
 relatedTerms: []
 references: []
@@ -24,15 +20,15 @@ incrementalChangeDescription:
   fieldsAdded: []
   fieldsUpdated:
     - name: description
-      oldValue: eddsa-test glossaryTerm sync trigger at 21:13:59
-      newValue: 1.13 retest term 220355
+      oldValue: no-eddsa retest term 104217
+      newValue: FIX-test term 111557
   fieldsDeleted: []
   previousVersion: 0.2
   changeSummary:
     description:
       changeSource: Manual
       changedBy: admin
-      changedAt: 1779813235677
+      changedAt: 1779860757889
 entityStatus: Approved
 provider: user
 mutuallyExclusive: false
