@@ -1,15 +1,15 @@
 name: mysql_sample
 fullyQualifiedName: mysql_sample
 serviceType: Mysql
-description: 1.13 retest svc 220355
+description: FIX-test svc 111557
 connection:
   config:
     type: Mysql
     scheme: mysql+pymysql
     authType:
-      password: fernet:gAAAAABqFctz3EeRRZriMqonxXipxpYegFd25OeDl0PTi4USw17LGf0KS0KBR8dW5SwzoECs3_7mJEf-ZWTMT2yB_r-qFEMjF5y6hGZd7UyPMWsGNxY2lL8=
+      password: fernet:gAAAAABqFoUVq1e02xFmFch0Ke-ZvSJrynM0GGrBv_FWR4nj8kxQH9R_NCW9qS_EZpjcgbCUDKRguXz0p_Ls1CNBQ2VObZ4sZw==
     hostPort: localhost:3306
-    username: openmetadata_user
+    username: u
     useSlowLogs: false
     databaseSchema: posts_db
     supportsDataDiff: true
@@ -25,15 +25,15 @@ incrementalChangeDescription:
   fieldsAdded: []
   fieldsUpdated:
     - name: description
-      oldValue: Trigger eddsa-removal manual sync test at 2026-05-26T21:03:47+05:30
-      newValue: 1.13 retest svc 220355
+      oldValue: no-eddsa retest svc 104217
+      newValue: FIX-test svc 111557
   fieldsDeleted: []
   previousVersion: 0.2
   changeSummary:
     description:
       changeSource: Manual
       changedBy: admin
-      changedAt: 1779813235364
+      changedAt: 1779860757508
 entityStatus: Unprocessed
 dataProducts: []
 domains: []
