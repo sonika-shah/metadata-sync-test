@@ -1,13 +1,13 @@
 name: mysql_sample
 fullyQualifiedName: mysql_sample
 serviceType: Mysql
-description: JsonLogic positive test 144152
+description: and-pos 144622
 connection:
   config:
     type: Mysql
     scheme: mysql+pymysql
     authType:
-      password: fernet:gAAAAABqFrVYq_mvP-bw2nA7RpSZeDAY7ef9SZxfwwVPvu8_-fUNEayrt-5PWdLiQF3HCIu0OX31KKfm9CJCueyQNotQyLx_mA==
+      password: fernet:gAAAAABqFrZnpuqqxmIWkML3uuBK-3iD7Rd8kqHVZ6KUf7RCAOY8VnOXQ7EdLvx_c_bcEKulmT0-eOUB3pJwvS06_IXGzY1aQQ==
     hostPort: localhost:3306
     username: u
     useSlowLogs: false
@@ -25,15 +25,15 @@ incrementalChangeDescription:
   fieldsAdded: []
   fieldsUpdated:
     - name: description
-      oldValue: CLEAN svc 113811
-      newValue: JsonLogic positive test 144152
+      oldValue: JsonLogic positive test 144152
+      newValue: and-pos 144622
   fieldsDeleted: []
-  previousVersion: 0.4
+  previousVersion: 0.5
   changeSummary:
     description:
       changeSource: Manual
       changedBy: admin
-      changedAt: 1779873112156
+      changedAt: 1779873383090
 entityStatus: Unprocessed
 dataProducts: []
 domains: []
