@@ -1,0 +1,19 @@
+name: test_dashboard_svc
+fullyQualifiedName: test_dashboard_svc
+serviceType: Tableau
+description: For testing no-filter workflow
+connection:
+  config:
+    type: Tableau
+    authType:
+      password: fernet:gAAAAABqFrZnaocu9XlqD2ZLGJASEa0exu3vFrGhV667cmcNNNsoDnAApgvyA8zz9kkEVro4ehlkEOev1hJ9wuDOTvBtJp-pLw==
+      username: u
+    hostPort: http://localhost
+    verifySSL: no-ssl
+    paginationLimit: 10
+    supportsMetadataExtraction: true
+tags: []
+owners: []
+entityStatus: Unprocessed
+dataProducts: []
+domains: []
