@@ -1,6 +1,6 @@
 name: Categories
 fullyQualifiedName: mysql_sample.default.posts_db.Categories
-description: FINAL table 113148
+description: CLEAN table 113811
 columns:
   - name: id
     dataType: BIGINT
@@ -35,7 +35,7 @@ service:
   type: databaseService
   name: mysql_sample
   fullyQualifiedName: mysql_sample
-  description: FINAL svc 113148
+  description: CLEAN svc 113811
   displayName: mysql_sample
   deleted: false
 serviceType: Mysql
@@ -44,15 +44,15 @@ incrementalChangeDescription:
   fieldsAdded: []
   fieldsUpdated:
     - name: description
-      oldValue: FIX-test table 111557
-      newValue: FINAL table 113148
+      oldValue: FINAL table 113148
+      newValue: CLEAN table 113811
   fieldsDeleted: []
-  previousVersion: 0.3
+  previousVersion: 0.4
   changeSummary:
     description:
       changeSource: Manual
       changedBy: admin
-      changedAt: 1779861708912
+      changedAt: 1779862091927
 domains: []
 dataProducts: []
 processedLineage: false
