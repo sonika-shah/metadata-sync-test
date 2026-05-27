@@ -1,13 +1,13 @@
 name: mysql_sample
 fullyQualifiedName: mysql_sample
 serviceType: Mysql
-description: FINAL svc 113148
+description: CLEAN svc 113811
 connection:
   config:
     type: Mysql
     scheme: mysql+pymysql
     authType:
-      password: fernet:gAAAAABqFojMIlspuSAUV1RzqKVm4MxmOmO5YWPlTgeEpxUzA2cCfGPUXqaoXkwNd7Umub1GwZc2lGHjeVdpY-ioPhyCCMsmwQ==
+      password: fernet:gAAAAABqFopLX2vFNysEElU_8Vz2YO3yCuvspeDLlxpkWDo5Amjh_UGcsXropQ_7RIvP16Y5q8ALJviCennokMQmhlHaeOYkpw==
     hostPort: localhost:3306
     username: u
     useSlowLogs: false
@@ -25,15 +25,15 @@ incrementalChangeDescription:
   fieldsAdded: []
   fieldsUpdated:
     - name: description
-      oldValue: FIX-test svc 111557
-      newValue: FINAL svc 113148
+      oldValue: FINAL svc 113148
+      newValue: CLEAN svc 113811
   fieldsDeleted: []
-  previousVersion: 0.3
+  previousVersion: 0.4
   changeSummary:
     description:
       changeSource: Manual
       changedBy: admin
-      changedAt: 1779861708720
+      changedAt: 1779862091672
 entityStatus: Unprocessed
 dataProducts: []
 domains: []
