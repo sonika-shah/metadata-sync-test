@@ -1,5 +1,5 @@
 name: PII
-description: FINAL term 113148
+description: CLEAN term 113811
 fullyQualifiedName: GitSyncCVETest.PII
 synonyms: []
 glossary:
@@ -20,15 +20,15 @@ incrementalChangeDescription:
   fieldsAdded: []
   fieldsUpdated:
     - name: description
-      oldValue: FIX-test term 111557
-      newValue: FINAL term 113148
+      oldValue: FINAL term 113148
+      newValue: CLEAN term 113811
   fieldsDeleted: []
-  previousVersion: 0.3
+  previousVersion: 0.4
   changeSummary:
     description:
       changeSource: Manual
       changedBy: admin
-      changedAt: 1779861709044
+      changedAt: 1779862092102
 entityStatus: Approved
 provider: user
 mutuallyExclusive: false
